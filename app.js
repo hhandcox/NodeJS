@@ -11,10 +11,12 @@ function solveRect(l, w) {
             console.log(`Perimeter of rectangle with dimensions ${l}, ${w} is: ${rectangle.perimeter()}`);
         }
     });
-    console.log(`This statement is logged after the call to rect()`);
+    console.log(`This statement is logged after the call to rect()`)
 }
 
 solveRect(2, 4);
 solveRect(3, 5);
 solveRect(0, 5);
 solveRect(5, -3);
+
+//Fixing Git
